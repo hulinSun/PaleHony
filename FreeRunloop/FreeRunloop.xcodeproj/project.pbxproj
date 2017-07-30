@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE635CEF1F2DB3950026216E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635CEE1F2DB3950026216E /* main.m */; };
+		FE635CF21F2DB3950026216E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635CF11F2DB3950026216E /* AppDelegate.m */; };
+		FE635CF51F2DB3950026216E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635CF41F2DB3950026216E /* ViewController.m */; };
+		FE635CF81F2DB3950026216E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE635CF61F2DB3950026216E /* Main.storyboard */; };
+		FE635CFA1F2DB3950026216E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE635CF91F2DB3950026216E /* Assets.xcassets */; };
+		FE635CFD1F2DB3950026216E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE635CFB1F2DB3950026216E /* LaunchScreen.storyboard */; };
+		FE635D081F2DB3960026216E /* FreeRunloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635D071F2DB3960026216E /* FreeRunloopTests.m */; };
+		FE635D131F2DB3960026216E /* FreeRunloopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635D121F2DB3960026216E /* FreeRunloopUITests.m */; };
+		FE635D221F2DB3B50026216E /* FreeRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = FE635D211F2DB3B50026216E /* FreeRunloop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE635D041F2DB3960026216E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE635CE21F2DB3950026216E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE635CE91F2DB3950026216E;
+			remoteInfo = FreeRunloop;
+		};
+		FE635D0F1F2DB3960026216E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE635CE21F2DB3950026216E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE635CE91F2DB3950026216E;
+			remoteInfo = FreeRunloop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE635CEA1F2DB3950026216E /* FreeRunloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeRunloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE635CEE1F2DB3950026216E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE635CF01F2DB3950026216E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE635CF11F2DB3950026216E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE635CF31F2DB3950026216E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE635CF41F2DB3950026216E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE635CF71F2DB3950026216E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE635CF91F2DB3950026216E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE635CFC1F2DB3950026216E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE635CFE1F2DB3950026216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE635D031F2DB3960026216E /* FreeRunloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeRunloopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE635D071F2DB3960026216E /* FreeRunloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeRunloopTests.m; sourceTree = "<group>"; };
+		FE635D091F2DB3960026216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE635D0E1F2DB3960026216E /* FreeRunloopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeRunloopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE635D121F2DB3960026216E /* FreeRunloopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeRunloopUITests.m; sourceTree = "<group>"; };
+		FE635D141F2DB3960026216E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE635D201F2DB3B50026216E /* FreeRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeRunloop.h; sourceTree = "<group>"; };
+		FE635D211F2DB3B50026216E /* FreeRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeRunloop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE635CE71F2DB3950026216E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635D001F2DB3960026216E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635D0B1F2DB3960026216E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE635CE11F2DB3950026216E = {
+			isa = PBXGroup;
+			children = (
+				FE635CEC1F2DB3950026216E /* FreeRunloop */,
+				FE635D061F2DB3960026216E /* FreeRunloopTests */,
+				FE635D111F2DB3960026216E /* FreeRunloopUITests */,
+				FE635CEB1F2DB3950026216E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE635CEB1F2DB3950026216E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE635CEA1F2DB3950026216E /* FreeRunloop.app */,
+				FE635D031F2DB3960026216E /* FreeRunloopTests.xctest */,
+				FE635D0E1F2DB3960026216E /* FreeRunloopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE635CEC1F2DB3950026216E /* FreeRunloop */ = {
+			isa = PBXGroup;
+			children = (
+				FE635CF01F2DB3950026216E /* AppDelegate.h */,
+				FE635CF11F2DB3950026216E /* AppDelegate.m */,
+				FE635CF31F2DB3950026216E /* ViewController.h */,
+				FE635CF41F2DB3950026216E /* ViewController.m */,
+				FE635D201F2DB3B50026216E /* FreeRunloop.h */,
+				FE635D211F2DB3B50026216E /* FreeRunloop.m */,
+				FE635CF61F2DB3950026216E /* Main.storyboard */,
+				FE635CF91F2DB3950026216E /* Assets.xcassets */,
+				FE635CFB1F2DB3950026216E /* LaunchScreen.storyboard */,
+				FE635CFE1F2DB3950026216E /* Info.plist */,
+				FE635CED1F2DB3950026216E /* Supporting Files */,
+			);
+			path = FreeRunloop;
+			sourceTree = "<group>";
+		};
+		FE635CED1F2DB3950026216E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE635CEE1F2DB3950026216E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE635D061F2DB3960026216E /* FreeRunloopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE635D071F2DB3960026216E /* FreeRunloopTests.m */,
+				FE635D091F2DB3960026216E /* Info.plist */,
+			);
+			path = FreeRunloopTests;
+			sourceTree = "<group>";
+		};
+		FE635D111F2DB3960026216E /* FreeRunloopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE635D121F2DB3960026216E /* FreeRunloopUITests.m */,
+				FE635D141F2DB3960026216E /* Info.plist */,
+			);
+			path = FreeRunloopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE635CE91F2DB3950026216E /* FreeRunloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE635D171F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloop" */;
+			buildPhases = (
+				FE635CE61F2DB3950026216E /* Sources */,
+				FE635CE71F2DB3950026216E /* Frameworks */,
+				FE635CE81F2DB3950026216E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeRunloop;
+			productName = FreeRunloop;
+			productReference = FE635CEA1F2DB3950026216E /* FreeRunloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE635D021F2DB3960026216E /* FreeRunloopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE635D1A1F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloopTests" */;
+			buildPhases = (
+				FE635CFF1F2DB3960026216E /* Sources */,
+				FE635D001F2DB3960026216E /* Frameworks */,
+				FE635D011F2DB3960026216E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE635D051F2DB3960026216E /* PBXTargetDependency */,
+			);
+			name = FreeRunloopTests;
+			productName = FreeRunloopTests;
+			productReference = FE635D031F2DB3960026216E /* FreeRunloopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE635D0D1F2DB3960026216E /* FreeRunloopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE635D1D1F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloopUITests" */;
+			buildPhases = (
+				FE635D0A1F2DB3960026216E /* Sources */,
+				FE635D0B1F2DB3960026216E /* Frameworks */,
+				FE635D0C1F2DB3960026216E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE635D101F2DB3960026216E /* PBXTargetDependency */,
+			);
+			name = FreeRunloopUITests;
+			productName = FreeRunloopUITests;
+			productReference = FE635D0E1F2DB3960026216E /* FreeRunloopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE635CE21F2DB3950026216E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hony;
+				TargetAttributes = {
+					FE635CE91F2DB3950026216E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FE635D021F2DB3960026216E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE635CE91F2DB3950026216E;
+					};
+					FE635D0D1F2DB3960026216E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE635CE91F2DB3950026216E;
+					};
+				};
+			};
+			buildConfigurationList = FE635CE51F2DB3950026216E /* Build configuration list for PBXProject "FreeRunloop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE635CE11F2DB3950026216E;
+			productRefGroup = FE635CEB1F2DB3950026216E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE635CE91F2DB3950026216E /* FreeRunloop */,
+				FE635D021F2DB3960026216E /* FreeRunloopTests */,
+				FE635D0D1F2DB3960026216E /* FreeRunloopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE635CE81F2DB3950026216E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE635CFD1F2DB3950026216E /* LaunchScreen.storyboard in Resources */,
+				FE635CFA1F2DB3950026216E /* Assets.xcassets in Resources */,
+				FE635CF81F2DB3950026216E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635D011F2DB3960026216E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635D0C1F2DB3960026216E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE635CE61F2DB3950026216E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE635CF51F2DB3950026216E /* ViewController.m in Sources */,
+				FE635D221F2DB3B50026216E /* FreeRunloop.m in Sources */,
+				FE635CF21F2DB3950026216E /* AppDelegate.m in Sources */,
+				FE635CEF1F2DB3950026216E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635CFF1F2DB3960026216E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE635D081F2DB3960026216E /* FreeRunloopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE635D0A1F2DB3960026216E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE635D131F2DB3960026216E /* FreeRunloopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE635D051F2DB3960026216E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE635CE91F2DB3950026216E /* FreeRunloop */;
+			targetProxy = FE635D041F2DB3960026216E /* PBXContainerItemProxy */;
+		};
+		FE635D101F2DB3960026216E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE635CE91F2DB3950026216E /* FreeRunloop */;
+			targetProxy = FE635D0F1F2DB3960026216E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE635CF61F2DB3950026216E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE635CF71F2DB3950026216E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE635CFB1F2DB3950026216E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE635CFC1F2DB3950026216E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE635D151F2DB3960026216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE635D161F2DB3960026216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE635D181F2DB3960026216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE635D191F2DB3960026216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeRunloop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE635D1B1F2DB3960026216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeRunloopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeRunloop.app/FreeRunloop";
+			};
+			name = Debug;
+		};
+		FE635D1C1F2DB3960026216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeRunloopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeRunloop.app/FreeRunloop";
+			};
+			name = Release;
+		};
+		FE635D1E1F2DB3960026216E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreeRunloopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreeRunloop;
+			};
+			name = Debug;
+		};
+		FE635D1F1F2DB3960026216E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreeRunloopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PaleHony.FreeRunloopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreeRunloop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE635CE51F2DB3950026216E /* Build configuration list for PBXProject "FreeRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE635D151F2DB3960026216E /* Debug */,
+				FE635D161F2DB3960026216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE635D171F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE635D181F2DB3960026216E /* Debug */,
+				FE635D191F2DB3960026216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE635D1A1F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE635D1B1F2DB3960026216E /* Debug */,
+				FE635D1C1F2DB3960026216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE635D1D1F2DB3960026216E /* Build configuration list for PBXNativeTarget "FreeRunloopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE635D1E1F2DB3960026216E /* Debug */,
+				FE635D1F1F2DB3960026216E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE635CE21F2DB3950026216E /* Project object */;
+}
