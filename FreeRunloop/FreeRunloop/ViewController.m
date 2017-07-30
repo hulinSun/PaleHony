@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // runloop 在空闲时期做一些优化
     FreeRunloop *runloop = [FreeRunloop freeRunloopWithTarget:self selector:@selector(test)];
     [runloop beginFreeJob];
 }
