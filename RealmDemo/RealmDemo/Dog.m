@@ -18,13 +18,15 @@
 //    return @{};
 //}
 
-
 // 忽略某个属性
 //+ (NSArray *)ignoredProperties
 //{
 //    return @[];
 //}
 
+//+(NSString *)primaryKey{
+//    return @"name";
+//}
 
 + (NSDictionary *)linkingObjectsProperties {
     return @{

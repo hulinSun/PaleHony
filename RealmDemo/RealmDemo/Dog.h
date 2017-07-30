@@ -13,7 +13,7 @@
 @property NSString *name;
 @property BOOL  isFemail;
 
-// readonly 是不会存在数据库里的
+// readonly 是不会存在数据库里的 . 会被自动忽律
 @property (readonly) RLMLinkingObjects *owners;
 
 @end
