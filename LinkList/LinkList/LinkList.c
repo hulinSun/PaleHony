@@ -11,6 +11,22 @@
 #include "LinkList.h"
 #include <stdlib.h>
 
+void List_Print(LinkList *link){
+    if (link == NULL) {
+        return;
+    }
+    
+    LinkListNode *currentNode = link->header;
+    for (int i = 0; i < link->length; i++) {
+        currentNode = currentNode->next;
+        if (i == link->length - 1) {
+            printf("%d \n",(int)currentNode->value);
+        }else{
+            printf("%d -> ",(int)currentNode->value);
+        }
+    }
+}
+
 // 创建
 LinkList *List_Create(){
     
@@ -202,7 +218,47 @@ void List_Remove_Value(LinkList *list, LinkListNodeValue value){
     }
 }
 
+// 前置声明
+void inverse1(LinkList *list);
+void inverse2(LinkList *list);
 
+// 链表反转
+void List_Inverse(LinkList *list){
+    
+    if (list == NULL) {
+        return;
+    }
+    inverse1(list);
+}
+
+
+// 第一种方法，重新生成一个链表
+void inverse1(LinkList *list){
+    
+    LinkList *newList = List_Create();
+    LinkListNode *current = list->header;
+    for (int i = 0; i < list->length; i++) {
+        current = current->next;
+        List_Insert(newList, 0, current->value);
+    }
+    List_Print(newList);
+}
+
+
+void inverse2(LinkList *list){
+    
+    // 每次将便利到的节点放在表头
+    LinkListNode *current, *p;
+    current = list->header;
+    while (current->next){
+        p = current->next;
+        current->next = p->next;
+        p->next = list->header;
+        list->header= p;
+    }
+    
+    List_Print(list);
+}
 
 
 

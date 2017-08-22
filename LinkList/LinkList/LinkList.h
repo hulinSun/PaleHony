@@ -36,6 +36,9 @@ typedef struct {
     LinkListNode *header;
 } LinkList;
 
+// 打印
+void List_Print(LinkList *link);
+
 // 创建
 LinkList *List_Create();
 
@@ -69,6 +72,7 @@ LinkListNodeValue List_Remove(LinkList *list, int index);
 // 删除某种数据
 void List_Remove_Value(LinkList *list, LinkListNodeValue value);
 
-
+// 链表反转
+void List_Inverse(LinkList *list);
 
 #endif /* LinkList_h */
