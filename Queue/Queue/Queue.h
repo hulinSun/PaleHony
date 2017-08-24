@@ -29,6 +29,8 @@ typedef struct {
     QueueNodeValue *base;
 }Queue;
 
+void Queue_Print(Queue *queue);
+
 // 创建
 Queue* Queue_Creat(int capacity);
 
@@ -41,11 +43,8 @@ void Queue_Clear(Queue* queue);
 // 入队
 void Queue_Enqueue(Queue* queue, QueueNodeValue value);
 
-// 出队
+// 出队 (删除队头的数据并返回)
 QueueNodeValue Queue_Dequeue(Queue* queue);
-
-// 队头
-void * Queue_Header(Queue* queue);
 
 // 队列的长度
 int Queue_Length(Queue* queue);

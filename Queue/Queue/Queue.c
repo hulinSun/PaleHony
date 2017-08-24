@@ -9,6 +9,19 @@
 #include "Queue.h"
 #include <stdlib.h>
 
+void Queue_Print(Queue *queue){
+    if (queue == NULL) {
+        return;
+    }
+    
+    // 打印肯定他妈的从队头开始打印啊.
+    int temp = queue->front;
+    while (temp != queue->rear) {
+        printf("%d - ",(int)(queue->base[temp]));
+        temp++;
+    }
+}
+
 // 创建
 Queue* Queue_Creat(int capacity){
     
@@ -49,7 +62,6 @@ void Queue_Clear(Queue* queue){
     }
     queue->front = 0;
     queue->rear = 0;
-    
 }
 
 // 入队
@@ -58,7 +70,6 @@ void Queue_Enqueue(Queue* queue, QueueNodeValue value){
     if (queue == NULL) {
         return ;
     }
-    
     
     // 判断是否满了
     // 满了
@@ -70,6 +81,8 @@ void Queue_Enqueue(Queue* queue, QueueNodeValue value){
         queue->rear = (queue->rear + 1) % queue->capactiy;
     }
     
+    printf("\n入队rear = %d\n ",queue->rear);
+    
 }
 
 // 出队
@@ -80,13 +93,9 @@ QueueNodeValue Queue_Dequeue(Queue* queue){
     }
     QueueNodeValue *value = queue->base[queue->front];
     queue->front = (queue->front + 1) % queue->capactiy;
+    printf("\n出队front = %d\n",queue->front);
     // 队头删除数据
     return  value;
-}
-
-// 队头
-void * Queue_Header(Queue* queue){
-    return  NULL;
 }
 
 // 队列的长度
